@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container
+{
+    min-height: 100vh;
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 35%;
+    padding: 30px 10px;
+    box-shadow: 0 0 10px rgb(83, 138, 0);
+}
+.container .box h1
+{
+    font-size: 3em;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 6px;
+}
+.container .box .outputScreen
+{
+    width: 95%;
+    margin-top: 20px;
+}
+.container .box .outputScreen input
+{
+    width: 100%;
+    background-color: #222;
+    border: 1px solid greenyellow;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    color: greenyellow;
+    font-size: 24px;
+    font-weight: 200;
+}
+.container .box .CalButtons
+{
+    width: 95%;
+    margin-top: 20px;
+}
+.container .box .CalButtons table
+{
+    width: 100%;
+}
+.container .box .CalButtons table td
+{
+    border: 1px solid greenyellow;
+    text-align: center;
+    padding: 10px;
+    color: greenyellow;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.container .box .CalButtons table td:active
+{
+    background-color: greenyellow;
+    color: #000;
+}
